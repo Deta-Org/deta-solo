@@ -1,6 +1,6 @@
 /*
 
-    Copyright 2019 dYdX Trading Inc.
+    Copyright 2019 deta Trading Inc.
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
@@ -35,7 +35,7 @@ import { OnlySolo } from "../helpers/OnlySolo.sol";
 
 /**
  * @title ExpiryV2
- * @author dYdX
+ * @author deta
  *
  * Expiry contract that also allows approved senders to set expiry to be 28 days in the future.
  */

@@ -321,7 +321,7 @@ export class SignedOperations extends Signer {
 
   /**
    * Uses web3.eth.sign to sign a cancel message for an operation. This signature is not used
-   * on-chain,but allows dYdX backend services to verify that the cancel operation api call is from
+   * on-chain,but allows deta backend services to verify that the cancel operation api call is from
    * the original maker of the operation.
    */
   public async ethSignCancelOperation(
@@ -335,7 +335,7 @@ export class SignedOperations extends Signer {
 
   /**
    * Uses web3.eth.sign to sign a cancel message for an operation hash. This signature is not used
-   * on-chain, but allows dYdX backend services to verify that the cancel operation api call is from
+   * on-chain, but allows deta backend services to verify that the cancel operation api call is from
    * the original maker of the operation.
    */
   public async ethSignCancelOperationByHash(

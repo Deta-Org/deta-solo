@@ -1,6 +1,6 @@
 /*
 
-    Copyright 2019 dYdX Trading Inc.
+    Copyright 2019 deta Trading Inc.
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
@@ -35,7 +35,7 @@ import { OnlySolo } from "../helpers/OnlySolo.sol";
 
 /**
  * @title Expiry
- * @author dYdX
+ * @author deta
  *
  * Sets the negative balance for an account to expire at a certain time. This allows any other
  * account to repay that negative balance after expiry using any positive balance in the same

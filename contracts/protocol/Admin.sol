@@ -1,6 +1,6 @@
 /*
 
-    Copyright 2019 dYdX Trading Inc.
+    Copyright 2019 deta Trading Inc.
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
@@ -33,7 +33,7 @@ import { Token } from "./lib/Token.sol";
 
 /**
  * @title Admin
- * @author dYdX
+ * @author deta
  *
  * Public functions that allow the privileged owner address to manage Solo
  */

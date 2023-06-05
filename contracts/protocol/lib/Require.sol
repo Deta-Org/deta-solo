@@ -1,6 +1,6 @@
 /*
 
-    Copyright 2019 dYdX Trading Inc.
+    Copyright 2019 deta Trading Inc.
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
@@ -22,7 +22,7 @@ pragma experimental ABIEncoderV2;
 
 /**
  * @title Require
- * @author dYdX
+ * @author deta
  *
  * Stringifies parameters to pretty-print revert messages. Costs more gas than regular require()
  */

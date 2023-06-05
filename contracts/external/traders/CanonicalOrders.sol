@@ -1,6 +1,6 @@
 /*
 
-    Copyright 2019 dYdX Trading Inc.
+    Copyright 2019 deta Trading Inc.
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
@@ -34,9 +34,9 @@ import { TypedSignature } from "../lib/TypedSignature.sol";
 
 /**
  * @title CanonicalOrders
- * @author dYdX
+ * @author deta
  *
- * Allows for Canonical Orders to be used with dYdX
+ * Allows for Canonical Orders to be used with deta
  */
 contract CanonicalOrders is
     Ownable,

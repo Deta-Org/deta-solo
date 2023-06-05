@@ -1,6 +1,6 @@
 /*
 
-    Copyright 2019 dYdX Trading Inc.
+    Copyright 2019 deta Trading Inc.
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
@@ -25,7 +25,7 @@ import { Math } from "./Math.sol";
 
 /**
  * @title Decimal
- * @author dYdX
+ * @author deta
  *
  * Library that defines a fixed-point number with 18 decimal places.
  */

@@ -1,6 +1,6 @@
 /*
 
-    Copyright 2019 dYdX Trading Inc.
+    Copyright 2019 deta Trading Inc.
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
@@ -27,7 +27,7 @@ import { Math } from "../../protocol/lib/Math.sol";
 
 /**
  * @title DoubleExponentInterestSetter
- * @author dYdX
+ * @author deta
  *
  * Interest setter that sets interest based on a polynomial of the usage percentage of the market.
  * Interest = C_0 + C_1 * U^(2^0) + C_2 * U^(2^1) + C_3 * U^(2^2) ...

@@ -1,6 +1,6 @@
 /*
 
-    Copyright 2019 dYdX Trading Inc.
+    Copyright 2019 deta Trading Inc.
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
@@ -24,7 +24,7 @@ import { Monetary } from "../lib/Monetary.sol";
 
 /**
  * @title IPriceOracle
- * @author dYdX
+ * @author deta
  *
  * Interface that Price Oracles for Solo must implement in order to report prices.
  */

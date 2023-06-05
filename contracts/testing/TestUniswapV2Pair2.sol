@@ -1,6 +1,6 @@
 /*
 
-    Copyright 2020 dYdX Trading Inc.
+    Copyright 2020 deta Trading Inc.
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
@@ -24,7 +24,7 @@ import { TestUniswapV2Pair } from "./TestUniswapV2Pair.sol";
 
 /**
  * @title TestUniswapV2Pair2
- * @author dYdX
+ * @author deta
  *
  * Another mock Uniswap V2 pair.
  */

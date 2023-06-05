@@ -1,6 +1,6 @@
 import BigNumber from 'bignumber.js';
 import { TransactionObject } from 'web3/eth/types';
-import { OrderMapper } from '@dydxprotocol/exchange-wrappers';
+import { OrderMapper } from '@detaprotocol/exchange-wrappers';
 import { LimitOrders } from '../LimitOrders';
 import { StopLimitOrders } from '../StopLimitOrders';
 import { CanonicalOrders } from '../CanonicalOrders';

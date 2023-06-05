@@ -4,7 +4,7 @@ import { TestSolo } from './modules/TestSolo';
 import { resetEVM, snapshot } from './helpers/EVM';
 import { setupMarkets } from './helpers/SoloHelpers';
 import { INTEGERS } from '../src/lib/Constants';
-import { OrderType, TestOrder } from '@dydxprotocol/exchange-wrappers';
+import { OrderType, TestOrder } from '@detaprotocol/exchange-wrappers';
 import { stringToDecimal } from '../src/lib/Helpers';
 import {
   address,

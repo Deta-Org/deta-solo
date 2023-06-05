@@ -1,5 +1,5 @@
 import BigNumber from 'bignumber.js';
-import { OrderType, TestOrder } from '@dydxprotocol/exchange-wrappers';
+import { OrderType, TestOrder } from '@detaprotocol/exchange-wrappers';
 import { getSolo } from '../helpers/Solo';
 import { TestSolo } from '../modules/TestSolo';
 import { resetEVM, snapshot } from '../helpers/EVM';

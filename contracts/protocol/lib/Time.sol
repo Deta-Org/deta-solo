@@ -1,6 +1,6 @@
 /*
 
-    Copyright 2019 dYdX Trading Inc.
+    Copyright 2019 deta Trading Inc.
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
@@ -24,7 +24,7 @@ import { Math } from "./Math.sol";
 
 /**
  * @title Time
- * @author dYdX
+ * @author deta
  *
  * Library for dealing with time, assuming timestamps fit within 32 bits (valid until year 2106)
  */

@@ -1,6 +1,6 @@
 /*
 
-    Copyright 2019 dYdX Trading Inc.
+    Copyright 2019 deta Trading Inc.
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
@@ -24,7 +24,7 @@ import { ICurve } from "../external/interfaces/ICurve.sol";
 
 /**
  * @title TestCurve
- * @author dYdX
+ * @author deta
  *
  * Mock of the Curve contract.
  */

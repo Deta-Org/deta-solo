@@ -1,6 +1,6 @@
 /*
 
-    Copyright 2019 dYdX Trading Inc.
+    Copyright 2019 deta Trading Inc.
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
@@ -26,7 +26,7 @@ import { Account } from "../protocol/lib/Account.sol";
 
 /**
  * @title TestSimpleCallee
- * @author dYdX
+ * @author deta
  *
  * ICallee for testing any data being sent
  */

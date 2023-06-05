@@ -33,7 +33,7 @@ export class SignOffChainAction extends Signer {
     web3: Web3,
     networkId: number,
     {
-      domain = 'dYdX',
+      domain = 'deta',
       version = '1.0',
     }: {
       domain?: string;
@@ -44,7 +44,7 @@ export class SignOffChainAction extends Signer {
     this.domain = domain;
     this.networkId = networkId;
     this.version = version;
-    this.EIP712_OFF_CHAIN_ACTION_ALL_STRUCT_STRING = 'dYdX(' +
+    this.EIP712_OFF_CHAIN_ACTION_ALL_STRUCT_STRING = 'deta(' +
       'string action,' +
       'string expiration' +
       ')';

@@ -29,7 +29,7 @@ import { CanonicalOrders } from './CanonicalOrders';
 import _ from 'lodash';
 
 const FOUR_WEEKS_IN_SECONDS = 60 * 60 * 24 * 28;
-const DEFAULT_API_ENDPOINT = 'https://api.dydx.exchange';
+const DEFAULT_API_ENDPOINT = 'https://api.deta.exchange';
 const DEFAULT_API_TIMEOUT = 10000;
 
 export class Api {

@@ -1,6 +1,6 @@
 /*
 
-    Copyright 2019 dYdX Trading Inc.
+    Copyright 2019 deta Trading Inc.
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
@@ -29,7 +29,7 @@ import { OnlySolo } from "../helpers/OnlySolo.sol";
 
 /**
  * @title Refunder
- * @author dYdX
+ * @author deta
  *
  * Allows refunding a user for some amount of tokens for some market.
  */

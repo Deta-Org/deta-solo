@@ -4,7 +4,7 @@ import { TestSolo } from '../modules/TestSolo';
 import { snapshot, resetEVM } from '../helpers/EVM';
 import { setupMarkets } from '../helpers/SoloHelpers';
 import { INTEGERS } from '../../src/lib/Constants';
-import { OrderType, TestOrder } from '@dydxprotocol/exchange-wrappers';
+import { OrderType, TestOrder } from '@detaprotocol/exchange-wrappers';
 import { expectThrow } from '../../src/lib/Expect';
 import { TestToken } from '../modules/TestToken';
 import {

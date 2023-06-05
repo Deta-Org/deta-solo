@@ -1,4 +1,4 @@
-import { OrderMapper } from '@dydxprotocol/exchange-wrappers';
+import { OrderMapper } from '@detaprotocol/exchange-wrappers';
 import { Contracts } from '../../lib/Contracts';
 import { AccountOperation } from './AccountOperation';
 import { AccountOperationOptions } from '../../types';

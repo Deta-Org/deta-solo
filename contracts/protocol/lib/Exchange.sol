@@ -1,6 +1,6 @@
 /*
 
-    Copyright 2019 dYdX Trading Inc.
+    Copyright 2019 deta Trading Inc.
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
@@ -27,7 +27,7 @@ import { IExchangeWrapper } from "../interfaces/IExchangeWrapper.sol";
 
 /**
  * @title Exchange
- * @author dYdX
+ * @author deta
  *
  * Library for transferring tokens and interacting with ExchangeWrappers by using the Wei struct
  */

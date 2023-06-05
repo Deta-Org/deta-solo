@@ -1,6 +1,6 @@
 /*
 
-    Copyright 2019 dYdX Trading Inc.
+    Copyright 2019 deta Trading Inc.
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
@@ -25,7 +25,7 @@ import { IErc20 } from "../interfaces/IErc20.sol";
 
 /**
  * @title Token
- * @author dYdX
+ * @author deta
  *
  * This library contains basic functions for interacting with ERC20 tokens. Modified to work with
  * tokens that don't adhere strictly to the ERC20 standard (for example tokens that don't return a

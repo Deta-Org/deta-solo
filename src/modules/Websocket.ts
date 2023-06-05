@@ -52,7 +52,7 @@ export interface SubscribeMessage extends OutgoingMessage {
   id: string;
 }
 
-const DEFAULT_WS_ENDPOINT = 'wss://api.dydx.exchange/v1/ws';
+const DEFAULT_WS_ENDPOINT = 'wss://api.deta.exchange/v1/ws';
 const DEFAULT_TIMEOUT_MS = 10000;
 
 export class Websocket {

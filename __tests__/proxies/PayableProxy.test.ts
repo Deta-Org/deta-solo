@@ -6,7 +6,7 @@ import { setupMarkets } from '../helpers/SoloHelpers';
 import { ADDRESSES, INTEGERS } from '../../src/lib/Constants';
 import { expectThrow } from '../../src/lib/Expect';
 import { toBytes } from '../../src/lib/BytesHelper';
-import { OrderType, TestOrder } from '@dydxprotocol/exchange-wrappers';
+import { OrderType, TestOrder } from '@detaprotocol/exchange-wrappers';
 import {
   address,
   Amount,

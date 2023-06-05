@@ -1,6 +1,6 @@
 /*
 
-    Copyright 2019 dYdX Trading Inc.
+    Copyright 2019 deta Trading Inc.
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
@@ -17,7 +17,7 @@
 */
 
 import BigNumber from 'bignumber.js';
-import { Order } from '@dydxprotocol/exchange-wrappers';
+import { Order } from '@detaprotocol/exchange-wrappers';
 import { TransactionReceipt, Log, EventLog } from 'web3/types';
 
 export type address = string;
@@ -139,7 +139,7 @@ export interface TxResult {
   events?: {
     [eventName: string]: EventLog;
   };
-  nonce?: number; // non-standard field, returned only through dYdX Sender service
+  nonce?: number; // non-standard field, returned only through deta Sender service
   status?: boolean;
   confirmation?: Promise<TransactionReceipt>;
   gasEstimate?: number;
@@ -737,7 +737,7 @@ interface ApiModel {
 }
 
 export enum OrderType {
-  DYDX = 'dydexLimitV1',
+  deta = 'dydexLimitV1',
   ETH_2_DAI = 'OasisV3',
   ZERO_EX = '0x-V2',
 }

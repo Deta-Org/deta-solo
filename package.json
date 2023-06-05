@@ -1,7 +1,7 @@
 {
-  "name": "@dydxprotocol/solo",
+  "name": "@detaprotocol/solo",
   "version": "0.41.0",
-  "description": "Ethereum Smart Contracts and TypeScript library used for the dYdX Solo-Margin Trading Protocol",
+  "description": "Ethereum Smart Contracts and TypeScript library used for the deta Solo-Margin Trading Protocol",
   "main": "dist/src/index.js",
   "types": "dist/src/index.d.ts",
   "files": [
@@ -14,19 +14,19 @@
   "scripts": {
     "test": "npm run deploy_test && npm run test_only",
     "build": "npm run compile -- --all && npm run copy_tew && npm run clean_contract_json && npm run build:wrappers && npm run build:test_wrappers",
-    "copy_tew": "cp node_modules/@dydxprotocol/exchange-wrappers/build/contracts/TestExchangeWrapper.json ./build/contracts/",
-    "copy_tew_cov": "cp ./node_modules/@dydxprotocol/exchange-wrappers/build/contracts/TestExchangeWrapper.json ./build/contracts/",
+    "copy_tew": "cp node_modules/@detaprotocol/exchange-wrappers/build/contracts/TestExchangeWrapper.json ./build/contracts/",
+    "copy_tew_cov": "cp ./node_modules/@detaprotocol/exchange-wrappers/build/contracts/TestExchangeWrapper.json ./build/contracts/",
     "compile": "node_modules/.bin/truffle compile",
     "build:wrappers": "typechain --target=web3-1.0.0 --outDir=build/wrappers/ './build/published_contracts/*[^(Impl)].json'",
     "build:test_wrappers": "typechain --target=web3-1.0.0 --outDir=build/testing_wrappers/ './build/testing_contracts/*[^(Impl)].json'",
     "migrate": "truffle migrate",
     "develop": "truffle develop",
     "console": "truffle console",
-    "lint": "npm run lint:ts && npm run lint:js && npm run lint:sol && npm run lint:dydx",
+    "lint": "npm run lint:ts && npm run lint:js && npm run lint:sol && npm run lint:deta",
     "lint:ts": "tslint --project . -t verbose 'src/**/*.ts' '__tests__/**/*.ts'",
     "lint:js": "eslint --ext .js --ignore-path .gitignore migrations/**/*.js",
     "lint:sol": "solium -d contracts/",
-    "lint:dydx": "python util/lintcontracts.py",
+    "lint:deta": "python util/lintcontracts.py",
     "coverage": "node scripts/coverage.js",
     "node": "ganache-cli",
     "debug": "truffle debug",
@@ -50,20 +50,20 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/dydxprotocol/solo"
+    "url": "https://github.com/detaprotocol/solo"
   },
   "keywords": [
-    "dydx",
+    "deta",
     "ethereum"
   ],
-  "author": "dYdX Trading Inc.",
+  "author": "deta Trading Inc.",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/dydxprotocol/solo/issues"
+    "url": "https://github.com/detaprotocol/solo/issues"
   },
-  "homepage": "https://github.com/dydxprotocol/solo#readme",
+  "homepage": "https://github.com/detaprotocol/solo#readme",
   "dependencies": {
-    "@dydxprotocol/exchange-wrappers": "0.5.3",
+    "@detaprotocol/exchange-wrappers": "0.5.3",
     "@types/web3": "1.0.18",
     "axios": "^0.19.0",
     "bignumber.js": "^8.1.1",

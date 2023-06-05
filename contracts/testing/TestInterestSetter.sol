@@ -1,6 +1,6 @@
 /*
 
-    Copyright 2019 dYdX Trading Inc.
+    Copyright 2019 deta Trading Inc.
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
@@ -26,7 +26,7 @@ import { Interest } from "../protocol/lib/Interest.sol";
 
 /**
  * @title TestInterestSetter
- * @author dYdX
+ * @author deta
  *
  * Interest setter used for testing that always returns a constant interest rate
  */
