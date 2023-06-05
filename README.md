@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <p align="center"><img src="https://s3.amazonaws.com/deta-assets/logo_large_white.png" width="256" /></p>
 
 <div align="center">
@@ -167,3 +168,6 @@ Requires a running [docker](https://docker.com) engine.
 ## License
 
 [Apache-2.0](./blob/master/LICENSE)
+=======
+
+>>>>>>> 924b5db3fd7cb9563efbb369b546bbbf7e73b71a
